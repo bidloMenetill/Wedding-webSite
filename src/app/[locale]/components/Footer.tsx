@@ -9,7 +9,7 @@ function Footer() {
        <div className="bg-[#a09f9f] p-5 flex flex-col items-center relative justify-center">
         <RevealWrapper duration={1500} origin="top">
        <h6 className="text-[1.7rem]">Той ээлери:</h6>
-       <p className="text-[1.4rem]">Эдиль & Гулина</p>
+       <p className="text-[1.4rem]">Эдил & Гулина</p>
        </RevealWrapper>
       </div>
       <div className="h-screen bg-[url('/images/footer/bg.jpg')] bg-cover bg-[47.5%] bg-no-repeat flex items-end justify-center">

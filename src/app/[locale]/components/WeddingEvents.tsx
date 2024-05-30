@@ -43,7 +43,7 @@ function WeddingEvents() {
                     <strong className="text-black font-bold">
 {t('presenters')}                    </strong>
                     <br />
-                    Эдиль, Гулина
+                    Эдил, Гулина
                   </p>
                   <a
                     href="https://2gis.kg/bishkek/firm/70000001039576605"
@@ -85,7 +85,7 @@ function WeddingEvents() {
                     <strong className="text-black font-bold">
 Той ээлери:                  </strong>
                     <br />
-                    Эдиль, Гулина
+                    Эдил, Гулина
                   </p>
                    <a
                     href="https://2gis.kg/bishkek/firm/70000001039576605"

@@ -15,11 +15,11 @@ function Gallery() {
 Галерея          </h1>
           <div className="flex flex-col items-center text-center gap-4 my-10">
             <Image
-              src="/images/gallery/quote.jpg"
+              src="/images/gallery/quotes.jpg"
               alt="quote"
-              width={170}
-  height={220} 
-              className="w-[170px] h-[220px] object-cover"
+              width={240}
+  height={240} 
+              className="w-[240px] h-[240px] object-cover"
             />
             <RevealWrapper origin="top" duration={1500}>
               <span>
