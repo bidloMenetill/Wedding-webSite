@@ -1,5 +1,7 @@
-import "./globals.css";
+import { getMessages } from "next-intl/server";
+import "../globals.css";
 import { Merriweather } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
 
 const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
@@ -8,19 +10,23 @@ const merriweather = Merriweather({
 });
 
 export const metadata = {
-  title: "Akbar & Retha - Wedding Invitation",
-  description: "Undangan Pernikahan Akbar & Retha",
+  title: "Камиль & Элина - Свадебный сайт",
+  description: "Приглашаем на свадьбу Камиля & Элины",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) {
+}) 
+{
+  const messages = await getMessages();
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${merriweather.className} bg-black overflow-x-hidden`}>
+        <NextIntlClientProvider messages={messages}>
         {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

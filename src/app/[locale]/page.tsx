@@ -6,7 +6,6 @@ import ArRum from "./components/ArRum";
 import Hero from "./components/Hero";
 import Profile from "./components/Profile";
 import WeddingEvents from "./components/WeddingEvents";
-import Reservation from "./components/Reservation";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import { RevealWrapper } from "next-reveal";
@@ -21,6 +20,7 @@ export default function Home() {
 
   return (
     <main className="max-w-[28.125rem] mx-auto">
+      
       <RevealWrapper duration={1500}>
         <Hero setCurrentOverflow={setCurrentOverflow} />
       </RevealWrapper>
@@ -28,7 +28,6 @@ export default function Home() {
       <ArRum />
       <Profile />
       <WeddingEvents />
-      <Reservation />
       <Gallery />
       <Footer />
     </main>
