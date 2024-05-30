@@ -1,9 +1,11 @@
+'use client'
 import React from "react";
 import { RevealWrapper } from "next-reveal";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 function ArRum() {
   const t = useTranslations()
+  const locale = useLocale()
   return (
     <section id="qs-ar-rum">
       <div className="bg-[url('/images/anNur/bg.png')] rounded-t-[1.25rem] bg-center bg-no-repeat bg-cover p-12 flex flex-col items-center text-center gap-8 -mt-8 z-20 relative font-light">
@@ -14,7 +16,9 @@ function ArRum() {
         </RevealWrapper>
         <RevealWrapper duration={1500} origin="top">
           <p className="text-[1.4rem] leading-loose text-[#424242]">
-           {t('quote')}
+          {locale === "kg" ?  (<><span>{t('firstLetters' )}</span>, <br /></>): null}  
+            {t('quote')}
+           
           </p>
         </RevealWrapper>
         <RevealWrapper duration={1500} origin="bottom">
