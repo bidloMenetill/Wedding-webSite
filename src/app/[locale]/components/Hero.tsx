@@ -30,13 +30,12 @@ stop()
             <h1 className="text-5xl text-center mt-[90px]">Камиль & Элина</h1>
             
           </div>
-          <div className="mt-10 flex justify-between items-center">
+          <div className="mt-10 flex justify-between">
           <div>
-            <p className="text font-extralight max-w-[200px] text-[1.1rem]">{t('heroTitle')}</p>
+            <p className="text font-extralight max-w-[200px] text-[1.2rem]">{t('heroTitle')}</p>
             <p className="text-[1.3rem] mt-3">{t('date')}</p>
           </div>
-          <div className="w-[2px] h-[250px] bg-white mx-[10px]"/>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col justify-between ml-[15px] gap-2">
             <p className="text-[1.4rem]">{t('restaurant')}</p>
            <a href="https://2gis.kg/bishkek/firm/70000001039576605" className="text-[1.3rem] text-[#ffeaea] transition-all hover:text-[#5a5858]" target="_blank">{t('location')}</a> 
           </div>
