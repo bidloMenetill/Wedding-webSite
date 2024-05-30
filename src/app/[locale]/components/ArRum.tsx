@@ -13,12 +13,12 @@ function ArRum() {
           </h1>
         </RevealWrapper>
         <RevealWrapper duration={1500} origin="top">
-          <p className="text-[1rem] leading-loose text-[#424242]">
+          <p className="text-[1.4rem] leading-loose text-[#424242]">
            {t('quote')}
           </p>
         </RevealWrapper>
         <RevealWrapper duration={1500} origin="bottom">
-          <h3 className="italic text-xl">{t('waiting')}</h3>
+          <h3 className="italic text-4xl">{t('waiting')}</h3>
         </RevealWrapper>
       </div>
     </section>

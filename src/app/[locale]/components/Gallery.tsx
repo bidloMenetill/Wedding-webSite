@@ -27,12 +27,12 @@ function Gallery() {
               </span>
             </RevealWrapper>
             <RevealWrapper origin="top" duration={1500}>
-              <p className="text-[1.2rem] font-light leading-loose px-8">
+              <p className="text-[1.3rem] font-light leading-loose">
                {t('galleryQuote')}
               </p>
             </RevealWrapper>
           </div>
-          <RevealWrapper origin="right" duration={1500}>
+          <RevealWrapper origin="left" duration={1500}>
             <img
               src="/images/gallery/bigGrid.jpg"
               alt="big-grid"

@@ -39,7 +39,7 @@ function CountdownComp() {
             style={{ backdropFilter: "blur(6px)" }}
           />
           <div className="relative z-20">
-            <RevealWrapper duration={1500} origin="right">
+            <RevealWrapper duration={1500} origin="left">
               <p className="text-[1.2rem] mb-2 font-light">{t('secondInvitation')}</p>
              
               <div className="grid grid-cols-1 border-y border-y-white text-center text-[0.75rem] font-light">
