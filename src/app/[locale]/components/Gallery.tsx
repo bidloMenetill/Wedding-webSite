@@ -15,7 +15,7 @@ function Gallery() {
 Галерея          </h1>
           <div className="flex flex-col items-center text-center gap-4 my-10">
             <Image
-              src="/images/gallery/quotes.jpg"
+              src="/images/gallery/main_quote.JPG"
               alt="quote"
               width={240}
   height={240} 
@@ -58,7 +58,7 @@ function Gallery() {
                 className="h-32 object-cover w-full"
               />
               <Image
-                src="/images/gallery/grid-3.Jpg"
+                src="/images/gallery/grid-3.jpg"
                 alt="grid-3"
                 height={128}
                 width={100}
