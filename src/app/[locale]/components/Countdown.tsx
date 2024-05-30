@@ -48,8 +48,8 @@ function CountdownComp() {
                 <p className="leading-[1.85] py-2 px-2 border-r border-r-white flex flex-col gap-2">
                   <span className="text-[1rem]">{t('date')}</span>
                 </p>
-                <div className="py-2 px-2 flex flex-col gap-2">
-                  <span className="text-[0.85rem]">{t('countdown')}</span>
+                <div className="py-2 px-2 text-[1rem] flex flex-col gap-2">
+               
                   {isMounted ? (
                     <Countdown
                       date={new Date("2024-07-04")}

@@ -82,7 +82,7 @@ function WeddingEvents() {
                   </p>
                    <p className="text-[0.785rem] text-[#5a5a5a] font-light leading-[1.9]">
                     <strong className="text-black font-bold">
-{t('presenters')}                    </strong>
+Той ээлери:                  </strong>
                     <br />
                     Эдиль, Гулина
                   </p>

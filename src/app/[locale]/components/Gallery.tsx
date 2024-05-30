@@ -7,7 +7,7 @@ function Gallery() {
   const t = useTranslations()
   return (
     <section id="gallery">
-      <div className="bg-[url('/images/hero/bg.jpg')] bg-cover bg-center relative px-8 py-16">
+      <div className="bg-[url('/images/gallery/bg.jpg')] bg-cover bg-center relative px-8 py-16">
         <div className="bg-transparent bg-[linear-gradient(360deg,#EAEAEA_53%,#424242_100%)] opacity-90 absolute inset-0"></div>
         <div className="z-10 relative">
           <h1 className="text-xl italic font-light text-center text-white">
@@ -49,7 +49,7 @@ function Gallery() {
                 className="h-32 object-cover w-full"
               />
               <img
-                src="/images/gallery/grid-1.jpg"
+                src="/images/gallery/grid-3.Jpg"
                 alt="grid-3"
                 className="h-32 object-cover w-full"
               />
