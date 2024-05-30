@@ -3,6 +3,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { RevealWrapper } from "next-reveal";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 function Profile() {
   const t = useTranslations()
@@ -26,7 +27,7 @@ function Profile() {
             </RevealWrapper>
           </div>
           <RevealWrapper duration={1500} origin="right">
-            <img
+            <Image
               src="/images/profile/bridge.jpg"
               alt="Elina"
               className="translate-x-[3rem]"
@@ -56,7 +57,7 @@ function Profile() {
         </div>
         <div className="grid grid-cols-2 mt-20">
           <RevealWrapper duration={1500} origin="left">
-            <img
+            <Image
               src="/images/profile/groom.jpg"
               alt="Kamil"
               className="-translate-x-[3rem]"

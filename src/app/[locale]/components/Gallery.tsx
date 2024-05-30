@@ -17,6 +17,8 @@ function Gallery() {
             <Image
               src="/images/gallery/quote.jpg"
               alt="quote"
+              width={170}
+  height={220} 
               className="w-[170px] h-[220px] object-cover"
             />
             <RevealWrapper origin="top" duration={1500}>
@@ -31,9 +33,11 @@ function Gallery() {
             </RevealWrapper>
           </div>
           <RevealWrapper origin="right" duration={1500}>
-            <Image
+            <img
               src="/images/gallery/bigGrid.jpg"
               alt="big-grid"
+              height={384}
+              width={100}
               className="w-full h-96 object-cover object-top"
             />
           </RevealWrapper>
@@ -42,16 +46,22 @@ function Gallery() {
               <Image
                 src="/images/gallery/grid-1.jpg"
                 alt="grid-1"
+                height={128}
+                width={100}
                 className="h-32 object-cover w-full"
               />
               <Image
                 src="/images/gallery/grid-2.jpg"
                 alt="grid-2"
+                height={128}
+                width={100}
                 className="h-32 object-cover w-full"
               />
               <Image
                 src="/images/gallery/grid-3.Jpg"
                 alt="grid-3"
+                height={128}
+                width={100}
                 className="h-32 object-cover w-full"
               />
             </div>
