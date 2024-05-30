@@ -13,7 +13,7 @@ function ArRum() {
           </h1>
         </RevealWrapper>
         <RevealWrapper duration={1500} origin="top">
-          <p className="text-[0.85rem] leading-loose text-[#424242]">
+          <p className="text-[1rem] leading-loose text-[#424242]">
            {t('quote')}
           </p>
         </RevealWrapper>

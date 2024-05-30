@@ -11,16 +11,17 @@ function Footer() {
           <div className="bg-[linear-gradient(180deg,#FFFFFF00_0%,#424242_67%)] blur-md absolute inset-x-0 bottom-0 -top-24"></div>
           <div className="flex flex-col items-center justify-center mx-auto text-center gap-4 text-white p-6 z-10 relative">
             <RevealWrapper duration={1500} origin="top">
-              <p className="text-[0.9rem] font-light leading-relaxed">
+              <p className="text-[1.2rem] font-light leading-relaxed">
             {t('restaurant')}
               </p>
             </RevealWrapper>
             <RevealWrapper duration={1500} origin="top">
               <a  href="https://2gis.kg/bishkek/firm/70000001039576605"
                     target="_blank">
-              <p className="text-[0.8rem] font-light leading-relaxed transition-all hover:text-[#717070]">
+              <p className="text-[1rem] font-light leading-relaxed transition-all hover:text-[#717070]">
    {t('location')}
               </p>
+              <p className="text-[1rem] font-light leading-relaxed transition-all hover:text-[#717070]">{t('locationDate')}</p>
               </a>
             </RevealWrapper>
             <RevealWrapper duration={1500} origin="bottom">

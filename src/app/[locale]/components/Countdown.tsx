@@ -23,9 +23,7 @@ function CountdownComp() {
     } else {
       return (
         <span>
-          {days} {t('days')} {hours} {t('hours')}
-          <br />
-          {minutes} мин {seconds} сек
+          {days} {t('days')} {hours} {t('hours')} {minutes} мин {seconds} сек
         </span>
       );
     }
@@ -42,13 +40,11 @@ function CountdownComp() {
           />
           <div className="relative z-20">
             <RevealWrapper duration={1500} origin="right">
-              <p className="text-sm font-light">{t('secondInvitation')}</p>
-              <h1 className="text-3xl font-light mt-2 mb-4">Камиль & Элина</h1>
-              <div className="grid grid-cols-2 border-y border-y-white text-center text-[0.75rem] font-light">
-                <p className="leading-[1.85] py-2 px-2 border-r border-r-white flex flex-col gap-2">
-                  <span className="text-[1rem]">{t('date')}</span>
-                </p>
-                <div className="py-2 px-2 text-[1rem] flex flex-col gap-2">
+              <p className="text-[1.2rem] mb-2 font-light">{t('secondInvitation')}</p>
+             
+              <div className="grid grid-cols-1 border-y border-y-white text-center text-[0.75rem] font-light">
+               
+                <div className="py-2 px-2 text-[1.3rem] flex flex-col gap-2">
                
                   {isMounted ? (
                     <Countdown
