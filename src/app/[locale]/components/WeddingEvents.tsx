@@ -2,6 +2,7 @@ import React from "react";
 import { AiFillClockCircle } from "react-icons/ai";
 import { RevealWrapper } from "next-reveal";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 function WeddingEvents() {
   const t = useTranslations('')
@@ -15,7 +16,7 @@ function WeddingEvents() {
           </h1>
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-10">
-              <img
+              <Image
                 src="/images/weddingEvents/akad.jpg"
                 alt="akad"
                 className="w-full h-72 object-cover rounded-t-[1.25rem]"
@@ -57,7 +58,7 @@ function WeddingEvents() {
           </RevealWrapper>
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-6">
-              <img
+              <Image
                 src="/images/weddingEvents/resepsi.jpg"
                 alt="akad"
                 className="w-full h-72 object-cover rounded-t-[1.25rem] object-left"

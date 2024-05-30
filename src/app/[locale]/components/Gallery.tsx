@@ -2,6 +2,7 @@ import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
 import { RevealWrapper } from "next-reveal";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 function Gallery() {
   const t = useTranslations()
@@ -13,7 +14,7 @@ function Gallery() {
           <h1 className="text-xl italic font-light text-center text-white">
 Галерея          </h1>
           <div className="flex flex-col items-center text-center gap-4 my-10">
-            <img
+            <Image
               src="/images/gallery/quote.jpg"
               alt="quote"
               className="w-[170px] h-[220px] object-cover"
@@ -30,7 +31,7 @@ function Gallery() {
             </RevealWrapper>
           </div>
           <RevealWrapper origin="right" duration={1500}>
-            <img
+            <Image
               src="/images/gallery/bigGrid.jpg"
               alt="big-grid"
               className="w-full h-96 object-cover object-top"
@@ -38,17 +39,17 @@ function Gallery() {
           </RevealWrapper>
           <RevealWrapper origin="top" duration={1500}>
             <div className="grid grid-cols-3 gap-1 mt-1">
-              <img
+              <Image
                 src="/images/gallery/grid-1.jpg"
                 alt="grid-1"
                 className="h-32 object-cover w-full"
               />
-              <img
+              <Image
                 src="/images/gallery/grid-2.jpg"
                 alt="grid-2"
                 className="h-32 object-cover w-full"
               />
-              <img
+              <Image
                 src="/images/gallery/grid-3.Jpg"
                 alt="grid-3"
                 className="h-32 object-cover w-full"
