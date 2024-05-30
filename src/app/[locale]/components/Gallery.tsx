@@ -27,7 +27,7 @@ function Gallery() {
               </span>
             </RevealWrapper>
             <RevealWrapper origin="top" duration={1500}>
-              <p className="text-[1rem] font-light leading-loose px-8">
+              <p className="text-[1.2rem] font-light leading-loose px-8">
                {t('galleryQuote')}
               </p>
             </RevealWrapper>
