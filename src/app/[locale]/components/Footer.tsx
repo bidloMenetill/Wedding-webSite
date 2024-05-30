@@ -11,12 +11,12 @@ function Footer() {
           <div className="bg-[linear-gradient(180deg,#FFFFFF00_0%,#424242_67%)] absolute inset-x-0 bottom-0 -top-24"></div>
           <div className="flex flex-col items-center text-center gap-4 text-white p-6 z-10 relative">
             <RevealWrapper duration={1500} origin="top">
-              <p className="text-[0.75rem] font-light leading-relaxed">
+              <p className="text-[0.85rem] font-light leading-relaxed">
             {t('footerTitle')}
               </p>
             </RevealWrapper>
             <RevealWrapper duration={1500} origin="top">
-              <p className="text-[0.75rem] font-light leading-relaxed">
+              <p className="text-[0.85rem] font-light leading-relaxed">
    {t('footerDescription')}
               </p>
             </RevealWrapper>
@@ -26,8 +26,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-[#424242] p-20 flex items-center justify-center">
-        <img src="/images/footer/logo-final.png" alt="logo" className="w-24" />
+      <div className="bg-[#424242] p-20 flex flex-col items-center justify-center">
+       <h6 className="text-[1.7rem]">Органзитаоры:</h6>
+       <p className="text-[1.4rem]">Эдиль & Гулина</p>
       </div>
     </section>
   );

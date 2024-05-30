@@ -46,7 +46,6 @@ function CountdownComp() {
               <h1 className="text-3xl font-light mt-2 mb-4">Камиль & Элина</h1>
               <div className="grid grid-cols-2 border-y border-y-white text-center text-[0.75rem] font-light">
                 <p className="leading-[1.85] py-2 px-2 border-r border-r-white flex flex-col gap-2">
-                  <span className="text-[1rem]">{t('saveDate')}</span>
                   <span className="text-[1rem]">{t('date')}</span>
                 </p>
                 <div className="py-2 px-2 flex flex-col gap-2">

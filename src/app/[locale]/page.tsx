@@ -8,26 +8,17 @@ import Profile from "./components/Profile";
 import WeddingEvents from "./components/WeddingEvents";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
-import { RevealWrapper } from "next-reveal";
 
 export default function Home() {
-  const [currentOverflow, setCurrentOverflow] = useState("hidden");
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    document.body.style.overflowY = currentOverflow;
-  }, [currentOverflow]);
+  
 
   return (
     <main className="max-w-[28.125rem] mx-auto">
-      
-      <RevealWrapper duration={1500}>
-        <Hero setCurrentOverflow={setCurrentOverflow} />
-      </RevealWrapper>
+        <Hero  />
       <Countdown />
       <ArRum />
-      <Profile />
-      <WeddingEvents />
+      {/* <Profile /> */}
+      {/* <WeddingEvents /> */}
       <Gallery />
       <Footer />
     </main>

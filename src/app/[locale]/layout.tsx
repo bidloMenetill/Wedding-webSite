@@ -1,10 +1,10 @@
 import { getMessages } from "next-intl/server";
 import "../globals.css";
-import { Merriweather } from "next/font/google";
-import { NextIntlClientProvider } from "next-intl";
 
-const merriweather = Merriweather({
-  weight: ["300", "400", "700", "900"],
+import { Cormorant_Infant} from "next/font/google"
+import { NextIntlClientProvider } from "next-intl";
+const cormorant = Cormorant_Infant({
+  weight: ["300", "400", "500", "600"],
   subsets: ["latin"],
   variable: "--font-merriweather",
 });
@@ -23,7 +23,7 @@ export default async function RootLayout({
   const messages = await getMessages();
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${merriweather.className} bg-black overflow-x-hidden`}>
+      <body className={`${cormorant.className} bg-black overflow-x-hidden`}>
         <NextIntlClientProvider messages={messages}>
         {children}
         </NextIntlClientProvider>
