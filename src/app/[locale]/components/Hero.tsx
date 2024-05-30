@@ -27,7 +27,7 @@ stop()
         <div className="absolute inset-0 bg-black/70 z-10" />
         <div className="flex flex-col items-center py-28 px-12 text-center z-20 relative h-screen">
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-4xl text-center mt-[130px]">Камиль & Элина</h1>
+            <h1 className="text-4xl text-center mt-[170px]">Камиль & Элина</h1>
             
           </div>
           <div className="mt-10 flex justify-between">
