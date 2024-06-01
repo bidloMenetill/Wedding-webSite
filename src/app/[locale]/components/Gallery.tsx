@@ -44,7 +44,7 @@ function Gallery() {
           <RevealWrapper origin="top" duration={1500}>
             <div className="grid grid-cols-3 gap-1 mt-1">
               <Image
-                src="/images/gallery/grid-1.jpg"
+                src="/images/gallery/grid.jpg"
                 alt="grid-1"
                 height={128}
                 width={100}
